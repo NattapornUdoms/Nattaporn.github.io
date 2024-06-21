@@ -56,6 +56,10 @@ h1 {
 
 form {
     margin-bottom: 20px;
+    display: flex; /* ใช้ flexbox เพื่อให้ item อยู่ในบรรทัดเดียวกัน */
+    align-items: center;
+    justify-content: center; /* จัดให้ content อยู่ตรงกลาง */
+    width: 100%; /* เพิ่มความกว้างให้กับ form */
 }
 
 input[type="text"] {
@@ -94,3 +98,5 @@ button:hover {
     height: 100%;
     border: 0;
 }
+
+
